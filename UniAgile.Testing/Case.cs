@@ -1,12 +1,11 @@
 ﻿using System;
 
-
 namespace UniAgile.Testing
 {
     public struct Case
     {
         /// <summary>
-        /// Starts a new sequence for target parameter
+        ///     Starts a new sequence for target parameter
         /// </summary>
         /// <param name="parameter"></param>
         /// <typeparam name="T"></typeparam>
@@ -16,9 +15,9 @@ namespace UniAgile.Testing
             return parameter;
         }
 
-        
+
         /// <summary>
-        /// Asserts pre-requisite for multiples
+        ///     Asserts pre-requisite for multiples
         /// </summary>
         /// <param name="action"></param>
         /// <returns></returns>
@@ -29,9 +28,9 @@ namespace UniAgile.Testing
             return this;
         }
 
-        
+
         /// <summary>
-        /// Asserts pre-requisite
+        ///     Asserts pre-requisite
         /// </summary>
         /// <param name="action"></param>
         /// <returns></returns>
@@ -43,7 +42,7 @@ namespace UniAgile.Testing
         }
 
         /// <summary>
-        /// Asserts pre-requisite
+        ///     Asserts pre-requisite
         /// </summary>
         /// <param name="action"></param>
         /// <returns></returns>

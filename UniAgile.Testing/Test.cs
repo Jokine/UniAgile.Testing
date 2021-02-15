@@ -5,7 +5,7 @@ namespace UniAgile.Testing
     public static class Test
     {
         /// <summary>
-        /// Starts a new test sequence
+        ///     Starts a new test sequence
         /// </summary>
         /// <param name="action"></param>
         /// <returns></returns>
@@ -18,7 +18,7 @@ namespace UniAgile.Testing
 
 
         /// <summary>
-        /// Assertion for multiples
+        ///     Assertion for multiples
         /// </summary>
         /// <param name="collection"></param>
         /// <param name="action"></param>
@@ -30,7 +30,7 @@ namespace UniAgile.Testing
         }
 
         /// <summary>
-        /// Assertion for single
+        ///     Assertion for single
         /// </summary>
         /// <param name="elem"></param>
         /// <param name="action"></param>
