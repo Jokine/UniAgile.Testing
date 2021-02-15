@@ -9,7 +9,7 @@
         <Description>Testing tools for UniAgile</Description>
         <PackageProjectUrl>https://github.com/Jokine/UniAgile.Testing</PackageProjectUrl>
         <PackageLicenseUrl></PackageLicenseUrl>
-        <RepositoryUrl>https://github.com/Jokine/UniAgile.Testing</RepositoryUrl>
+        <RepositoryUrl>https://github.com/Jokine/UniAgile.Testing.git</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
         <PackageReleaseNotes>Test and Cases for more fluent wording</PackageReleaseNotes>
     </PropertyGroup>
