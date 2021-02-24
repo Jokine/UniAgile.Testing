@@ -5,8 +5,11 @@ using Xunit;
 
 namespace UniAgile.Testing
 {
-    public static class GeneralTestExtensions
+    public static class IntegrationTestExtensions
     {
+        
+        
+        
         public static T then_it<T>(this T param)
         {
             return param;
