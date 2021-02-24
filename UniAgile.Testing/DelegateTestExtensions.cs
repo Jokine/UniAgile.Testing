@@ -17,15 +17,20 @@ namespace UniAgile.Testing
                 called(mock);
             }
         }
+        
+        public static void is_called_once(this Mock<Action> delegateMock)
+        {
+            called(delegateMock);
+        }
 
-        public static void not_called(this Mock<Action> delegateMock)
+        public static void is_not_called(this Mock<Action> delegateMock)
         {
             delegateMock.Verify(listener => listener.Invoke(), Times.Exactly(0), "Delegate was called. It was expected not to be called");
         }
 
         public static void are_not_called(this Mock<Action>[] delegateMocks)
         {
-            foreach (var delegateMock in delegateMocks) delegateMock.not_called();
+            foreach (var delegateMock in delegateMocks) delegateMock.is_not_called();
         }
         
     }
