@@ -11,8 +11,8 @@
         <PackageLicenseUrl></PackageLicenseUrl>
         <RepositoryUrl>https://github.com/Jokine/UniAgile.Testing.git</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
-        <PackageReleaseNotes>Delegate extensions</PackageReleaseNotes>
-        <PackageVersion>1.2.1</PackageVersion>
+        <PackageReleaseNotes>Returns</PackageReleaseNotes>
+        <PackageVersion>1.2.2</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
