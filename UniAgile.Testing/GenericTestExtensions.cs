@@ -11,13 +11,13 @@ namespace UniAgile.Testing
             Assert.NotNull(param);
         }
 
-        public static void returns<T>(this Mock<Func<T>> mock)
+        public static void which_returns<T>(this Mock<Func<T>> mock)
             where T : new()
         {
             mock.Setup(m => m.Invoke()).Returns(new T());
         }
         
-        public static void returns<T>(this Mock<Func<T>> mock, Func<T> factory)
+        public static void which_returns<T>(this Mock<Func<T>> mock, Func<T> factory)
         {
             mock.Setup(m => m.Invoke()).Returns(factory());
         }

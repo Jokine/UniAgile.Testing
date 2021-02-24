@@ -11,8 +11,8 @@
         <PackageLicenseUrl></PackageLicenseUrl>
         <RepositoryUrl>https://github.com/Jokine/UniAgile.Testing.git</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
-        <PackageReleaseNotes>Returns</PackageReleaseNotes>
-        <PackageVersion>1.2.3</PackageVersion>
+        <PackageReleaseNotes>MockData function which returns</PackageReleaseNotes>
+        <PackageVersion>1.2.5</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
