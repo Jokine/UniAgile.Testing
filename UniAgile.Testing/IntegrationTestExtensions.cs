@@ -1,5 +1,4 @@
 ﻿using System;
-using Xunit;
 
 // ReSharper disable InconsistentNaming
 
@@ -7,9 +6,6 @@ namespace UniAgile.Testing
 {
     public static class IntegrationTestExtensions
     {
-        
-        
-        
         public static T then_it<T>(this T param)
         {
             return param;
@@ -188,10 +184,10 @@ namespace UniAgile.Testing
             return param;
         }
 
-        public static void Throws<T>(this T[]  array,
-                                     Action<T> func)
-        {
-            foreach (var elem in array) Assert.ThrowsAny<Exception>(() => func(elem));
-        }
+        // public static void Throws<T>(this T[]  array,
+        //                              Action<T> func)
+        // {
+        //     foreach (var elem in array) Assert.ThrowsAny<Exception>(() => func(elem));
+        // }
     }
 }

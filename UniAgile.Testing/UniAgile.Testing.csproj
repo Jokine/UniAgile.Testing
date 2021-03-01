@@ -11,13 +11,19 @@
         <PackageLicenseUrl></PackageLicenseUrl>
         <RepositoryUrl>https://github.com/Jokine/UniAgile.Testing.git</RepositoryUrl>
         <RepositoryType>Git</RepositoryType>
-        <PackageReleaseNotes>MockData function which returns</PackageReleaseNotes>
-        <PackageVersion>1.2.6</PackageVersion>
+        <PackageReleaseNotes>Got rid of xunit dependency</PackageReleaseNotes>
+        <PackageVersion>1.2.7</PackageVersion>
+        <Configurations>Debug;Release;Unity</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Unity' ">
+        <OutputPath>bin\Unity\UniAgile.Testing.UnityPackage\Assets\</OutputPath>
+        <Optimize>true</Optimize>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Moq" Version="4.16.0" />
-      <PackageReference Include="xunit" Version="2.4.1" />
     </ItemGroup>
 
 </Project>
