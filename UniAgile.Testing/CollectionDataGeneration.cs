@@ -12,7 +12,7 @@ namespace UniAgile.Testing
         {
             return new Dictionary<string, TEnum>()
             {
-                {typeof(TEnum).GetType().ToString(), value}
+                {typeof(TEnum).ToString(), value}
             };
         }
 
